@@ -27,13 +27,7 @@ public class EVA1_11_COPIA_ARREGLO_OBJ {
            arregloCopia[i] = new Persona(arreglo[i].getNombre(), arreglo[i].getApellido());
         }
         
-        System.out.println("\nDatos del arreglo copiado:");
-        System.out.println("Posicion 0: " + arregloCopia[0].getNombre() + " " + arregloCopia[0].getApellido());
-        System.out.println("Posicipn 1: " + arregloCopia[1].getNombre() + " " + arregloCopia[1].getApellido());
-        
-        arreglo[0].setNombre("NuevoErick");
-        System.out.println("Arreglo original luego del cambio: " + arreglo[0].getNombre());
-        System.out.println("Arreglo copiado luego del cambio: " + arregloCopia[0].getNombre());
+        System.out.println(arregloCopia[0].getNombre());
         
         }
        
